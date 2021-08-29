@@ -78,16 +78,16 @@ Email Server
 In development, it is often nice to be able to see emails that are being sent from your application. For that reason local SMTP server `MailHog`_ with a web interface is available as docker container.
 
 Container mailhog will start automatically when you will run all docker containers.
-Please check `cookiecutter-django Docker documentation`_ for more details how to start all containers.
+
 
 With MailHog running, to view messages that are sent by your application, open your browser and go to ``http://127.0.0.1:8025``
 
-.. _mailhog: https://github.com/mailhog/MailHog
+
 
 Sentry
 ^^^^^^
 
-Sentry is an error logging aggregator service. You can sign up for a free account at  https://sentry.io/signup/?code=cookiecutter  or download and host it yourself.
+Sentry is an error logging aggregator service. You can sign up for a free account at  https://sentry.io/signup/ or download and host it yourself.
 The system is setup with reasonable defaults, including 404 logging and integration with the WSGI application.
 
 You must set the DSN url in production.
@@ -100,15 +100,15 @@ The following details how to deploy this application.
 Docker
 ^^^^^^
 
-See detailed `cookiecutter-django Docker documentation`_.
+See detailed 
 
 Commands
 ^^^^^^
 
-docker-compose -f xxxx.yml build
-docker-compose -f xxxx.yml run --rm django python manage.py makemigrations
-docker-compose -f xxxx.yml run --rm django python manage.py migrate
-docker-compose -f xxxx.yml run --rm django python manage.py createsuperuser
-docker-compose -f xxxx.yml up
+docker-compose -f xxxx.yml build .
+docker-compose -f xxxx.yml run --rm django python manage.py makemigrations.
+docker-compose -f xxxx.yml run --rm django python manage.py migrate .
+docker-compose -f xxxx.yml run --rm django python manage.py createsuperuser .
+docker-compose -f xxxx.yml up .
 
 
