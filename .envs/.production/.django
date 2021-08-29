@@ -1,0 +1,52 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+DJANGO_SETTINGS_MODULE=config.settings.production
+DJANGO_SECRET_KEY=hQOYEpqIWYjm1Dz6KLskaeaMS5yjV74Kit6nYhuU2Ei8aiZmRvyBnmgSirjFAcwD
+DJANGO_ADMIN_URL=SUPVmf5tZjiNDH7MuCB5q82wFQo6ZaYa/
+DJANGO_ALLOWED_HOSTS=.panbox.cloud
+
+# Security
+# ------------------------------------------------------------------------------
+# TIP: better off using DNS, however, redirect is OK too
+DJANGO_SECURE_SSL_REDIRECT=False
+
+# Email
+# ------------------------------------------------------------------------------
+DJANGO_SERVER_EMAIL=
+
+MAILGUN_API_KEY=
+MAILGUN_DOMAIN=
+
+
+# AWS
+# ------------------------------------------------------------------------------
+DJANGO_AWS_ACCESS_KEY_ID=AKIAZSTEIYP7KKCTM3UK
+DJANGO_AWS_SECRET_ACCESS_KEY=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
+DJANGO_AWS_STORAGE_BUCKET_NAME=sidgroaws
+DJANGO_AWS_S3_REGION_NAME=sa-east-1
+
+# django-allauth
+# ------------------------------------------------------------------------------
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=True
+
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
+
+# Sentry
+# ------------------------------------------------------------------------------
+SENTRY_DSN=
+
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=HLIlqpfmGFjVCTqtaxHuCJlkKHcjDhRY
+CELERY_FLOWER_PASSWORD=3C5AzaWMxrEL3XazGHE2RMo3nXDWpLoBs72qJqGeZM9XGmXhTKVpsp5m4054CbYq
+

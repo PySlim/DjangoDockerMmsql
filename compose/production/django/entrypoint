@@ -1,0 +1,45 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+
+
+# N.B. If only .env files supported variable expansion...
+export CELERY_BROKER_URL="${REDIS_URL}"
+
+
+if [ -z "${MSSQL_USER}" ]; then
+    base_sqlserver_image_default_user='sqlserver'
+    export MSSQL_USER="${base_sqlserver_image_default_user}"
+fi
+
+export DATABASE_URL="sqlserver://${MSSQL_USER}:${MSSQL_PASSWORD}@${MSSQL_HOST}:${MSSQL_PORT}/${DATABASE}"
+
+sqlserver_ready() {
+python << END
+import sys
+
+import pyodbc
+
+server = 'sqlserver'
+database = 'master'
+username = 'sa'
+password = 'PasswordO1.'
+
+try:
+    pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+except pyodbc.OperationalError:
+    sys.exit(-1)
+sys.exit(0)
+
+END
+}
+until sqlserver_ready; do
+  >&2 echo 'Waiting for SqlServer to become available...'
+  sleep 1
+done
+>&2 echo 'SqlServer is available'
+
+exec "$@"

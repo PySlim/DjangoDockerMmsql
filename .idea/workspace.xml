@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36b2114d-5ce1-45ed-9f58-f7474a429222" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/_event/domain/domain_get_data_full_event.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/_event/domain/domain_get_data_full_event.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/models/cuantification.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/models/cuantification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/models/recovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/models/recovery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/models/recoveryother.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/models/recoveryother.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/serializers/accounting.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/serializers/accounting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/views/accounting.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/views/accounting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/views/cuantification.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/views/cuantification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/views/recovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/views/recovery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/event/views/recoveryother.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/event/views/recoveryother.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/eventtemp/models/eventTemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/eventtemp/models/eventTemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/eventtemp/serializers/eventTemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/eventtemp/serializers/eventTemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/eventtemp/views/eventTemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/eventtemp/views/eventTemp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/judicial/views/judicialManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/judicial/views/judicialManagement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/risk/views/actionPlan.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/risk/views/actionPlan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidgro/risk/views/risk.py" beforeDir="false" afterPath="$PROJECT_DIR$/sidgro/risk/views/risk.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1slkXjdX0un7XcNPDM5JZf61BVM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36b2114d-5ce1-45ed-9f58-f7474a429222" name="Default Changelist" comment="" />
+      <created>1621454607099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621454607099</updated>
+      <workItem from="1621454609457" duration="1903000" />
+      <workItem from="1625445919297" duration="51000" />
+      <workItem from="1626208570665" duration="723000" />
+      <workItem from="1626327128883" duration="588000" />
+      <workItem from="1626327734008" duration="693000" />
+      <workItem from="1626446826689" duration="6558000" />
+      <workItem from="1626486572035" duration="15000" />
+      <workItem from="1626735115809" duration="639000" />
+      <workItem from="1626976171107" duration="1602000" />
+      <workItem from="1627173514065" duration="21000" />
+      <workItem from="1627255202448" duration="1137000" />
+      <workItem from="1627314611092" duration="8786000" />
+      <workItem from="1627396090928" duration="8308000" />
+      <workItem from="1627657478788" duration="9213000" />
+      <workItem from="1627694565319" duration="3216000" />
+      <workItem from="1627918652505" duration="2845000" />
+      <workItem from="1627999314110" duration="9853000" />
+      <workItem from="1628040617570" duration="3109000" />
+      <workItem from="1628097689721" duration="5616000" />
+      <workItem from="1628174372549" duration="11423000" />
+      <workItem from="1628263953444" duration="7921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

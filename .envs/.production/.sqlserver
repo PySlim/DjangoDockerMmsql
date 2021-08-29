@@ -1,0 +1,10 @@
+#SqlServer
+# --------------------------------------------------------------------------------------------------
+DATABASE=master
+MSSQL_HOST=sqlserver
+MSSQL_PORT=1433
+MSSQL_USER=sa
+MSSQL_PASSWORD=PasswordO1.
+MSSQL_DB=master
+SECRET_KEY=luen(7(7lp2xp)6rusz8aki@ib33az_=s7uw9wp@6c@n^q=6zn
+DJANGO_ALLOWED_HOSTS=localhost 0.0.0.0 127.0.0.1 [::1]
